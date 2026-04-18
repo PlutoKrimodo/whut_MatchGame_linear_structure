@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*/.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.ntsuo
+*.ncb
+*.plg
+*.opt
+*.clw
+*.ilk
+*.pdb
+*.exe
+*.log
+*.ipch
+*/ipch/
+*.sdf
+*.opensdf
+
+# MFC temporary files
+*.res
+*.aps
