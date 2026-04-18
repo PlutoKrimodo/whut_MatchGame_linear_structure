@@ -1,26 +1,27 @@
-# Visual Studio
+# Visual Studio 全局缓存目录
 .vs/
 */.vs/
-bin/
-obj/
+ipch/
+*/ipch/
+
+# 编译输出文件夹
 Debug/
 Release/
-*.user
-*.suo
-*.ntsuo
-*.ncb
-*.plg
-*.opt
-*.clw
+x64/
+x86/
+
+# 编译产物
+*.exe
+*.dll
+*.obj
 *.ilk
 *.pdb
-*.exe
 *.log
-*.ipch
-*/ipch/
+
+# VS 用户配置临时文件
+*.user
+*.suo
 *.sdf
 *.opensdf
-
-# MFC temporary files
-*.res
+*.ncb
 *.aps
